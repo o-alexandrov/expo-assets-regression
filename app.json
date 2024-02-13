@@ -25,6 +25,15 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "updates": {
+        "assetPatternsToBeBundled": [
+          "assets/example-extra-assets/**/*",
+          "assets/example-extra-assets/*",
+          "assets/example-extra-assets"
+        ]
+      }
     }
   }
 }
